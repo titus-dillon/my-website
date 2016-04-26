@@ -1,0 +1,121 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<title>Contact :: Titus Dillon</title>
+<link rel='stylesheet' type='text/css' href='style.css'>
+<script src='dataValidate.js'></script>
+
+</head>
+
+<body>
+
+<div id=backDiv></div>
+<div id=bannerDiv>
+	<div>
+	
+		<a href="home.html"><img id=prof src="images/td669_img_sq.jpg" alt="Titus Dillon"></a>
+		
+		<table id=links>
+		<tr>
+			<td><a class=link href="home.html">Home</a></td>
+			<td><a class=link href="blog.php">Blog</a></td>
+			<td><a class=link href="resume.html">Resume</a></td>
+			<td><a class=link id=bright href="contact.html">Contact</a></td>
+		</tr>
+		</table>
+	</div>
+</div>
+
+<div id=content>
+
+<br><br><br>
+<br><br>
+
+<table id=contactTable class=contact>	
+	<tr class=textTabTr>
+		<td class=textTabTd>
+			<h2>Contact Me</h2>
+		</td>
+	</tr>
+	<tr class=textTabTr>
+		<td class=textTabTd>
+			<b><u>Titus Dillon</u></b><br>
+			Email: <a href="mailto:tidillon@gmail.com">tidillon28@gmail.com</a>
+		</td>
+	</tr>
+	<tr class=textTabTr>
+		<td class=textTabTd>
+			<h3>Contact Form</h3>
+			<form id=emform action='mailHandler.php' method=post>
+				<table>
+					<tr>
+						<td>
+							Name *
+						</td>
+						<td>
+							<input type=text name=uname onBlur=autoCheckName(uname,'nameErr')>
+						</td>
+						<td id=nameErr class=error>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Email *
+						</td>
+						<td>
+							<input type=text name=email onBlur=autoCheckEmail(email,'emailErr')>
+						</td>
+						<td id=emailErr class=error>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Subject 
+						</td>
+						<td>
+							<input type=text name=subject>
+						</td>
+						<td>
+							<!-- this is intentionally empty -->
+						</td>
+					</tr>
+					<tr>
+						<td valign=top>
+							Message *
+						</td>
+						<td>
+							<textarea id=message name=msg></textarea>
+						</td>
+						<td id=msgErr class=error valign=top>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<!-- this is intentionally empty -->
+						</td>
+						<td>
+							<input type=button value="Submit" onClick=validate()>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</td>
+	</tr>
+</table>
+</div>
+
+<div id=footDiv>
+<table id=footTab>
+	<tr>
+		<td>
+			
+		</td>
+	</tr>
+</table>
+</div>
+</body>
+
+</html>
