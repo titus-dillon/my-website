@@ -6,7 +6,7 @@ function autoCheckName(name, id) {
 	
 	if (!element.match(/[\s]/)) {
 		tdTag.innerHTML = "Please enter first and last name";
-	}if (!element.match(/^[A-Za-z\-\`\s]+$/)) {
+	} if (!element.match(/^[A-Za-z\-\`\s]+$/)) {
 		tdTag.innerHTML = "Characters are limited to (A-Z, a-z, -)"
 	} if (element.length == 0) {
 		tdTag.innerHTML = "No name is entered";
@@ -28,7 +28,6 @@ function autoCheckEmail(email, id) {
 	} if (tdTag.innerHTML.length > 5) {
 		tdTag.innerHTML = "&#8855 " + tdTag.innerHTML;
 	}
-
 	return tdTag.innerHTML;
 }
 function checkMssg() {
@@ -55,9 +54,7 @@ function validate() {
 		alert("Please fix the following error(s):\n\n" + errorMsg);
 		return;
 	}
-
 	ubmit();
-
 }
 function ubmit() {
 	
@@ -65,15 +62,6 @@ function ubmit() {
 	var email = document.forms[0].email.value;
 	var subject = document.forms[0].subject.value;
 	var msg = document.getElementById('message').value;
-	
-	/*
-	var url = "mailHandler.php?uname="+name+"&email="+email+"&subject="+subject+"&msg="+msg;
-	
-	request = new XMLHttpRequest();
-	request.open('post',url);
-	request.send(null);
-	request.onreadystatechange = responseHandler;
-	*/
 	
 	var url = "uname="+name+"&email="+email+"&subject="+subject+"&msg="+msg;
 	
