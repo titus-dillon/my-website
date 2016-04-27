@@ -35,6 +35,10 @@ td {
 textarea {
 	height: 200px;
 }
+@keyframes fadein {
+	from { opcaity: 0 }
+	to { opacity: 1 }
+}
 .circle {
 	margin: auto;
 	height: 300px;
@@ -47,6 +51,7 @@ textarea {
 	color: rgba(255,255,255,1);
 	text-align: center;
 	line-height: 7.5;
+	animation: fadein 2s;
 }
 .circle:hover {
 	border: thin solid rgba(235,235,235,1);
