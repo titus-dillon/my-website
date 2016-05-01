@@ -26,7 +26,8 @@ input[type="button"] {
 input, textarea {
 	width: 360px;
 	padding: 3px;
-	font-family: "Microsoft JhengHei UI Light";
+	font-family: "Microsoft JhengHei UI";
+	font-weight: lighter;
 	font-size: 14pt;
 }
 td {
@@ -46,7 +47,8 @@ textarea {
 	border: thin solid rgba(235,235,235,.1);
 	border-radius: 50%;
 	background-color: rgba(235,235,235,.1);
-	font-family: "Microsoft JhengHei UI Light";
+	font-family: "Microsoft JhengHei UI";
+	font-weight: lighter;
 	font-size: 28pt;
 	color: rgba(255,255,255,1);
 	text-align: center;
@@ -73,14 +75,16 @@ textarea {
 	color: rgb(255,0,0);
 }
 .headTD {
-	font-family: "Microsoft JhengHei UI Light";
+	font-family: "Microsoft JhengHei UI";
+	font-weight: lighter;
 	font-size: 36pt;
 	color: rgb(235,235,235);
 	text-align: center;
 	opacity: .7;
 }
 .link {
-	font-family: "Microsoft JhengHei UI Light";
+	font-family: "Microsoft JhengHei UI";
+	font-weight: lighter;
 	font-size: 18pt;
 	font-variant: small-caps;
 	text-decoration: none;
@@ -155,7 +159,8 @@ textarea {
 #footTab {
 	width: 100%;
 	height: 45px;
-	font-family: "Microsoft JhengHei UI Light";
+	font-family: "Microsoft JhengHei UI";
+	font-weight: lighter;
 	font-size: 13pt;
 	font-variant: small-caps;
 	color: rgb(255,255,255);
