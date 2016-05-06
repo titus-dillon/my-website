@@ -21,9 +21,7 @@ function autoCheckEmail(email, id) {
 	var tdTag = document.getElementById(id);
 	tdTag.innerHTML = "";
 	
-	if (!element.match(/[@][.]/)) {
-		tdTag.innerHTML = "Address does not seem valid";
-	} if (element.length == 0) {
+	if (element.length == 0) {
 		tdTag.innerHTML = "No address is entered";
 	} if (tdTag.innerHTML.length > 5) {
 		tdTag.innerHTML = "&#8855 " + tdTag.innerHTML;
