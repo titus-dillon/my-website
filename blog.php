@@ -67,7 +67,7 @@ while(!feof($file)) {
 	</tr>\n";
 	
 	$record = fgets($file);
-	if ($record.length < 2) {
+	if (strlen($record) < 3) {
 		$record = fgets($file);
 	}
 }
