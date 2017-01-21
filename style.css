@@ -8,6 +8,10 @@ html, body {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
+/* Removes scrollbar-y in Chrome*/
+html::-webkit-scrollbar {
+	display: none;
+}
 body > #content {
 	height: auto;
 	min-height: 100%;
@@ -189,6 +193,13 @@ textarea {
 #div2 {
 	background-image: url(city.jpg);
 	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.contentDiv {
+	min-height: 100%;
+	background-image: url(images/nightblur.jpg);
+	background-size: 100% 120%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
