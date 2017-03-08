@@ -16,7 +16,7 @@
 <div id=bannerDiv>
 	<div>
 	
-		<a href="home.html"><img id=prof src="images/td669_img_sq.jpg" alt="Titus Dillon"></a>
+		<a href="index.html"><img id=prof src="images/td669_img_sq.jpg" alt="Titus Dillon"></a>
 		
 		<table id=links>
 		<tr>
