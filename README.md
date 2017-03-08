@@ -1,3 +1,1 @@
-# My Website
-
-My personal website.
+Personal website.
