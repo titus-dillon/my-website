@@ -20,7 +20,7 @@
 		
 		<table id=links>
 		<tr>
-			<td><a class=link href="home.html">Home</a></td>
+			<td><a class=link href="index.html">Home</a></td>
 			<td><a class=link id=bright href="blog.php">Blog</a></td>
 			<td><a class=link href="resume.html">Resume</a></td>
 			<td><a class=link href="contact.html">Contact</a></td>
