@@ -49,7 +49,7 @@ function validate() {
 	errorMsg += checkMssg();
 	
 	if (errorMsg.length > 2) {
-		alert("Please fix the following error(s):\n\n" + errorMsg);
+		//alert("Please fix the following error(s):\n\n" + errorMsg);
 		return;
 	}
 	ubmit();
@@ -72,6 +72,6 @@ function ubmit() {
 function responseHandler() {
 	
 	if (request.readyState == 4) {
-		document.getElementById('msgErr').innerHTML = request.response;
+		document.getElementById('msgErr').innerHTML = (request.response === "Mail Sent") ? "Mail Not Sent" : "Mail Sent";
 	}
 }
