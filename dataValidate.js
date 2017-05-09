@@ -72,6 +72,6 @@ function ubmit() {
 function responseHandler() {
 	
 	if (request.readyState == 4) {
-		document.getElementById('msgErr').innerHTML = (request.response === "Mail Sent") ? "Mail Not Sent" : "Mail Sent";
+		document.getElementById('msgErr').innerHTML = (request.response === "Mail Sent") ? "Mail Sent" : "Mail Not Sent";
 	}
 }
