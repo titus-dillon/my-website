@@ -47,7 +47,18 @@ textarea {
 	from { opacity: 0 }
 	to { opacity: 1 }
 }
-.circle {
+.button {
+	height: auto !important;
+	width: 200px !important;
+	border-radius: 9% !important;
+	font-size: 20pt !important;
+	line-height: 2 !important;
+}
+.button:hover {
+	font-size: 20pt !important;
+	line-height: 2 !important;
+}
+.circle, .button {
 	margin: auto;
 	height: 300px;
 	width: 300px;
@@ -62,7 +73,7 @@ textarea {
 	line-height: 7.5;
 	animation: fadein 2s;
 }
-.circle:hover {
+.circle:hover, .button:hover {
 	border: thin solid rgba(235,235,235,1);
 	background: none;
 	font-size: 30pt;
@@ -83,7 +94,7 @@ textarea {
 	color: rgb(255,0,0);
 }
 .headTD {
-	font-family: "Microsoft JhengHei UI";
+	font-family: "Microsoft JhengHei UI", "Segoe UI Light", "Segoe UI";
 	font-weight: lighter;
 	font-size: 36pt;
 	color: rgb(235,235,235);
@@ -91,7 +102,7 @@ textarea {
 	opacity: .7;
 }
 .link {
-	font-family: "Microsoft JhengHei UI";
+	font-family: "Microsoft JhengHei UI", "Segoe UI Light", "Segoe UI";
 	font-weight: lighter;
 	font-size: 18pt;
 	font-variant: small-caps;
@@ -108,7 +119,7 @@ textarea {
 .textTabTd {
 	padding: 20px;
 	background-color: rgb(235,235,235);
-	opacity: .7;
+	opacity: 1;
 }
 .textTabTd:hover {
 	opacity: 1;
